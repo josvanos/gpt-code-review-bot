@@ -15,4 +15,4 @@ function comment1() {
 }
 
 
-db.commments.addMultiple([comment1(), comment2(), comment3(), comment4()]);
+db.comments.addMultiple([comment1(), comment2(), comment3(), comment4()]);
