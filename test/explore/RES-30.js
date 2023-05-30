@@ -1,3 +1,5 @@
+import { db } from "./db";
+
 function comment4() {
     return "my president!";
 }
