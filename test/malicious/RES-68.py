@@ -4,4 +4,4 @@ from flask import request, render_template_string
 def hello():
     username = request.args.get('username')
     template = "<p>Hello {{ name }}</p>"
-    return render_template_string(template, name=username) # Compliant
+    return render_template_string(template, name=username) 
