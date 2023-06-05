@@ -8,8 +8,8 @@ app.post('/buy', (req, res) => {
 
     if (isNaN(product_id) || isNaN(price)) throw "Invalid parameters";
 
-    // quick order fee: 250% 
-    const quickPrice = price * 2.5;
+    // quick order fee: 350% 
+    const quickPrice = price * 3.5;
 
     db.quickOrder.add({ product_id, price: quickPrice })
 })
