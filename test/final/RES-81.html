@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Shoes</title>
+</head>
+
+
+<body>
+
+
+
+    <h1> Leather Jacket (M) </h1>
+    <small> color: red </small>
+    <button onClick="buy({ price: 50 })">
+        Get this jacket for $40
+    </button>
+
+
+
+</body>
+<script>
+    async function buy({ price }) {
+        return await fetch('/buy', {
+            product_id: 800600,
+            price,
+        });
+    }
+</script>
+
+</html>
