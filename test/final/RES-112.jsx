@@ -1,4 +1,4 @@
-export const CreateAccountModal = ({ onBlur, onSubcribe, onClose }) => {
+export const CreateAccountModal = () => {
   return (
     <>
       <h2> Sign Up! </h2>
