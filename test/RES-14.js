@@ -1,3 +1,3 @@
-let num = 2.555555;
-document.writeln(num.toExponential(4));
-document.writeln(num.toExponential(-2));
+let num = 2.3456;
+document.writeln(num.toPrecision(1));
+document.writeln(num.toPrecision(0));  
